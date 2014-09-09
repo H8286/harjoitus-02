@@ -1,0 +1,61 @@
+Sami Liimatainen
+IIO14S1
+9.9.2014
+Harjoitus 2
+Versio 1
+
+Pseudokoodi tehtävästä 1
+
+
+
+alku
+
+	Suurin=0
+	Keski=0
+	Pienin=0
+
+	anna luku1
+	anna luku2
+	anna luku3
+
+	
+	if
+	luku1>luku2
+	luku1>luku3
+	then
+	luku1=Suurin
+
+	if
+	luku2>luku3
+	then
+	luku2=Keski
+	luku3=Pienin
+
+	if
+	luku2>luku1
+	luku2>luku3
+	then
+	luku2=Suurin
+	
+	if
+	luku1>luku3
+	then
+	luku1=Keski
+	luku3=Pienin
+	
+	if
+	luku3>luku1
+	luku3>luku2
+	then
+	luku3=Suurin
+
+	if
+	luku2>luku1
+	then
+	luku2=Keski
+	luku1=Pienin
+
+
+	Tulosta Suurin, Keksi, Pienin
+
+loppu
